@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="adidab premium Bitcoin ritual banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0d" />
+      <stop offset="55%" stop-color="#141418" />
+      <stop offset="100%" stop-color="#0a0a0c" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#f4b03a" stop-opacity="0.35">
+        <animate attributeName="stop-opacity" values="0.35;0.55;0.35" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#f4b03a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd27a" />
+      <stop offset="55%" stop-color="#f4b03a" />
+      <stop offset="100%" stop-color="#ff8b3d" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)" />
+  <rect width="1200" height="420" fill="url(#glow)" />
+  <g opacity="0.25">
+    <path d="M0 300 C 200 240, 400 360, 600 310 C 800 260, 1000 320, 1200 260" stroke="#f4b03a" stroke-width="2" fill="none">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite"
+        values="M0 300 C 200 240, 400 360, 600 310 C 800 260, 1000 320, 1200 260;
+                M0 290 C 200 260, 420 330, 620 300 C 820 270, 1020 310, 1200 280;
+                M0 300 C 200 240, 400 360, 600 310 C 800 260, 1000 320, 1200 260" />
+    </path>
+  </g>
+  <circle cx="980" cy="150" r="90" fill="url(#gold)" opacity="0.9" />
+  <text x="980" y="182" text-anchor="middle" font-size="110" font-family="SF Pro Display, Helvetica, Arial, sans-serif" fill="#0b0b0d">₿</text>
+  <text x="90" y="150" font-size="48" font-family="SF Pro Display, Helvetica, Arial, sans-serif" fill="#ffffff">adidab</text>
+  <text x="90" y="200" font-size="22" letter-spacing="6" font-family="SF Pro Text, Helvetica, Arial, sans-serif" fill="#ffd27a">DAILY BITCOIN RITUAL</text>
+  <text x="90" y="260" font-size="24" font-family="SF Pro Text, Helvetica, Arial, sans-serif" fill="#b8b8c1">
+    Live price · Sentiment · Whale activity · Daily prediction
+  </text>
+</svg>
