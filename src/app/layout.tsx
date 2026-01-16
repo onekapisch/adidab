@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description:
       "A premium daily Bitcoin ritual for newcomers and daily checkers.",
   },
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
