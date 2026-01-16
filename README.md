@@ -1,20 +1,26 @@
 # adidab.com
 
-All Day I Dream About Bitcoin. A premium daily ritual for newcomers and daily checkers.
+All Day I Dream About Bitcoin — a premium daily ritual for newcomers and daily checkers.
 
-## Highlights
-- Live BTC price, Fear & Greed sentiment, whale activity, and prediction game.
-- Market Pulse chart with multiple ranges and long-arc history.
-- Utility-first tools: DCA planner, time machine, halving countdown, converter, alerts.
-- Learn path + whitepaper TLDR.
+## Why It Exists
+adidab turns chaotic Bitcoin checking into a calm, repeatable ritual. Fast, beautiful, and focused on what matters.
 
-## Tech Stack
+## What You Get
+- Live BTC price with a premium USD/EUR toggle.
+- Fear & Greed sentiment gauge with 30-day trend.
+- Whale activity highlights + dedicated deep dive page.
+- Daily prediction game to keep users coming back.
+- Market Pulse chart with multiple time ranges + long-arc history.
+- Tools for DCA planning, time machine, halving countdown, converter, and alerts.
+- Learn path plus a whitepaper TLDR.
+
+## Stack
 - Next.js (App Router) + TypeScript
 - Tailwind CSS
 - Data: CoinGecko, Alternative.me, Whale Alert (optional), Stooq
 - Hosting: Vercel
 
-## Getting Started
+## Quick Start
 ```bash
 npm install
 npm run dev
@@ -43,4 +49,4 @@ npm run start
 
 ## Notes
 - Whale activity uses Whale Alert when configured; otherwise it falls back to public mempool data.
-- Top holders list is a curated static dataset in `src/lib/holders.ts`.
+- Top holders list is a curated static dataset in `src/lib/holders.ts` and should be refreshed periodically.
